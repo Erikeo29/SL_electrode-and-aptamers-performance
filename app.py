@@ -7,6 +7,7 @@ import streamlit as st
 # --- Configuration de la page (DOIT etre en premier) ---
 st.set_page_config(
     page_title="Electrode & Aptamer Performance -- SWV Analysis",
+    page_icon="\U0001f9ec",
     layout="wide",
 )
 

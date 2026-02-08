@@ -59,7 +59,7 @@ Methylene blue (MB) is a cationic dye from the **phenothiazine** family, widely 
 
 > Molecular formula: C₁₆H₁₈N₃S⁺ (cation) · Cl⁻ (counter-ion) — molar mass: 319.85 g/mol.
 
-![Semi-developed structural formula of methylene blue](../../../assets/illustrations/methylene_blue_structure.png)
+![Semi-developed structural formula of methylene blue|400](../../../assets/illustrations/methylene_blue_structure.png)
 
 MB is covalently conjugated to the distal end (5') of the aptamer, which itself is anchored to the gold electrode surface via a thiol bond (3' end).
 

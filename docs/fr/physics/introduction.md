@@ -59,7 +59,7 @@ Le bleu de méthylène (MB) est un colorant cationique de la famille des **phén
 
 > Formule brute : C₁₆H₁₈N₃S⁺ (cation) · Cl⁻ (contre-ion) — masse molaire : 319,85 g/mol.
 
-![Formule semi-développée du bleu de méthylène](../../../assets/illustrations/methylene_blue_structure.png)
+![Formule semi-développée du bleu de méthylène|400](../../../assets/illustrations/methylene_blue_structure.png)
 
 Le MB est conjugué de manière covalente à l'extrémité distale (5') de l'aptamère, lui-même ancré sur la surface d'or de l'électrode via une liaison thiol (extrémité 3').
 

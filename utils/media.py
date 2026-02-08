@@ -31,14 +31,32 @@ def display_smart_markdown(content: str, doc_relative_path: str | None = None):
                 st.markdown(text)
         elif i % 3 == 2:
             img_path = parts[i]
-            alt_text = parts[i - 1]
+            raw_alt = parts[i - 1]
+            # Support width hint: ![alt|400](path) → width=400px
+            if "|" in raw_alt:
+                alt_text, width_str = raw_alt.rsplit("|", 1)
+                alt_text = alt_text.strip()
+                try:
+                    width = int(width_str.strip())
+                except ValueError:
+                    width = None
+            else:
+                alt_text = raw_alt
+                width = None
             abs_path = os.path.normpath(os.path.join(doc_dir, img_path))
             if os.path.exists(abs_path):
-                st.image(
-                    abs_path,
-                    caption=alt_text if alt_text else None,
-                    use_container_width=True,
-                )
+                if width:
+                    st.image(
+                        abs_path,
+                        caption=alt_text if alt_text else None,
+                        width=width,
+                    )
+                else:
+                    st.image(
+                        abs_path,
+                        caption=alt_text if alt_text else None,
+                        use_container_width=True,
+                    )
             else:
                 st.warning(f"Image not found: {img_path}")
         i += 1

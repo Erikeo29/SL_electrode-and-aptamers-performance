@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Plugin config (Claude Code)
+.plugin-config/
+data/.plugin-config/
+
+# Temporary / generation scripts
+tmp_*.py
+_generate_*.py
+
+# OS
+.DS_Store
+Thumbs.db

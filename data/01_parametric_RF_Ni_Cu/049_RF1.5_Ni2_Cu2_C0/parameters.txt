@@ -1,0 +1,20 @@
+============================================================
+PARAMETRES SWV APTAMERES
+============================================================
+Electrode: A_geo=1.77 mm2, RF=1.5
+Impuretes: Ni=2.0%, Cu=2.0%
+Contamination: 0%
+Au propre: 96.0%
+
+MB: E0=-0.240 V, n=2, k0=50.0 s-1
+k0_eff (rugosite): 43.0 s-1
+Gamma_total: 8.00e-08 mol/m2
+Gamma_eff: 7.68e-08 mol/m2
+
+SWV: f=25 Hz, dEp=25 mV, dEs=4 mV
+Scan: 0.00 -> -0.50 V (125 steps)
+v_eff: 100.0 mV/s
+
+C_dl: 25.0 uF/cm2 (eff: 27.5 uF/cm2)
+Bruit: ON
+============================================================

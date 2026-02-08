@@ -1,0 +1,9 @@
+[server]
+runOnSave = true
+fileWatcherType = "auto"
+
+[theme]
+primaryColor = "#004b87"
+
+[browser]
+gatherUsageStats = false

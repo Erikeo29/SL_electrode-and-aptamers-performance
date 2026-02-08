@@ -1,0 +1,14 @@
+METRIQUES SWV
+========================================
+I_peak_A: 1.676469e-06
+I_peak_nA: 1.676469e+03
+I_peak_raw_uA: 2.897363e+00
+E_peak_V: -2.400000e-01
+I_baseline_uA: 1.220764e+00
+sigma_baseline_nA: 2.724134e+00
+SNR: 6.154137e+02
+FWHM_V: 5.600000e-02
+FWHM_mV: 5.600000e+01
+FWHM_ideal_mV: 4.521658e+01
+R2_gaussian: 9.994297e-01
+baseline_ratio_pct: 4.213361e+01

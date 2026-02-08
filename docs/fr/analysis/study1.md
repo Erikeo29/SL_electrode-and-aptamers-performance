@@ -2,7 +2,7 @@
 
 Les graphiques ci-dessous présentent l'influence des quatre paramètres de surface (RF, Ni exposé, Cu exposé, contamination) sur les métriques du voltammogramme SWV. Voici les observations principales :
 
-- **Nickel exposé (facteur dominant)** : le SNR chute d'un facteur $\sim 10$ entre 0 et 10 % de Ni exposé. Ce résultat s'explique par les courants parasites générés par le nickel et la réduction de la constante de vitesse effective $k^0_{eff}$. C'est le paramètre le plus critique pour la qualité du biocapteur.
+- **Nickel exposé (facteur dominant)** : le SNR chute d'un facteur $\sim 10$ entre 0 et 10 % de Ni exposé. Ce résultat s'explique principalement par les courants parasites générés par le nickel, qui dégradent le rapport signal-sur-bruit. C'est le paramètre le plus critique pour la qualité du biocapteur.
 
 - **Facteur de rugosité (RF)** : le courant de base $I_{baseline}$ augmente proportionnellement à RF, tandis que $I_{peak}$ présente un optimum autour de RF $= 1.5$. Au-delà, l'augmentation du bruit capacitif dégrade le SNR malgré un courant faradique plus élevé.
 

@@ -80,7 +80,7 @@ Where:
 | $T$ | temperature | 298.15 | K |
 | $\alpha$ | transfer coefficient | 0.5 | -- |
 | $n$ | number of electrons (MB) | 2 | -- |
-| $E^0$ | formal potential MB/LB | $\approx -0.25$ | V vs Ag/AgCl |
+| $E^0$ | formal potential MB/LB | $\approx -0.24$ | V vs Ag/AgCl |
 
 ---
 

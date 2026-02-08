@@ -18,9 +18,9 @@ Everything begins, as with cyclic voltammetry, with Heyrovský's mercury drop in
 |------|-------|
 | 1922 | **Jaroslav Heyrovský** invents polarography using the dropping mercury electrode (DME) in Prague |
 | 1942 | **Barker** begins his work on pulsed techniques at the Harwell laboratory (United Kingdom) |
-| 1957 | **Barker & Jenkins** develop the first square wave polarography, superimposing a low-amplitude square wave signal on the potential ramp |
+| 1952 | **Barker & Jenkins** develop the first square wave polarography (*The Analyst*, 1952), superimposing a low-amplitude square wave signal on the potential ramp |
 | 1959 | Heyrovský receives the **Nobel Prize in Chemistry** for his work on polarography |
-| 1969 | **Janet & Robert Osteryoung** modernise the technique by coupling the square wave to a staircase signal, laying the foundations of modern SWV |
+| 1969 | **Ramaley & Krause** couple the square wave to a staircase signal, laying the foundations of modern SWV (*Anal. Chem.*, 1969) |
 
 *The key idea*: by applying pulses rather than a continuous ramp, the faradaic current is sampled at the moment when the capacitive current has decayed, considerably improving the signal-to-noise ratio. This trick, simple in appearance, would transform analytical electrochemistry.
 
@@ -33,7 +33,7 @@ SWV gradually distinguishes itself from differential pulse voltammetry (DPV) thr
 | **Osteryoung & O'Dea** | Refinement of the theory for reversible and quasi-reversible systems; SWV can acquire a complete voltammogram in a few seconds |
 | **Lovrić & Komorsky-Lovrić** | Development of the theory for surface-adsorbed species, directly applicable to aptamer-based biosensors |
 | **Net current** | The net signal $I_{net} = I_{forward} - I_{reverse}$ eliminates the capacitive component, offering superior sensitivity compared to CV and DPV |
-| **Ramaley & Krause** | First theoretical work relating the SWV peak shape to the kinetic parameters of the system |
+| **Ramaley & Krause** | First theoretical work (1969) relating the SWV peak shape to the kinetic parameters of the system |
 
 The measurement principle relies on three currents measured at each potential step: the forward current, the reverse current and the net current which is their difference. This decomposition not only eliminates capacitive noise but also allows diagnosis of the system's reversibility.
 
@@ -49,10 +49,10 @@ At the turn of the 1990s, a parallel revolution occurred in molecular biology: t
 
 | Year | Event |
 |------|-------|
-| 1990 | **Ellington & Szostak** (Harvard) coin the term "aptamer" (from the Latin *aptus*, fit) and develop the SELEX method (Systematic Evolution of Ligands by EXponential enrichment) |
-| 1990 | **Tuerk & Gold** (Colorado) independently develop the same in vitro selection method |
+| 1990 | **Ellington & Szostak** (Harvard) coin the term "aptamer" (from the Latin *aptus*, fit) and demonstrate in vitro selection of oligonucleotides (*Nature*, 1990) |
+| 1990 | **Tuerk & Gold** (Colorado) independently develop the same in vitro selection method, coining the term SELEX (*Systematic Evolution of Ligands by EXponential enrichment*) (*Science*, 1990) |
 | 1996 | First DNA aptamers selected for small-molecule targets (ATP, theophylline) |
-| 2003 | **Xiao, Piorek, Plaxco & Heeger** (UCSB) produce the first electrochemical aptamer-based biosensor (E-AB) for thrombin detection |
+| 2005 | **Xiao, Lubin, Heeger & Plaxco** (UCSB) produce the first electrochemical aptamer-based biosensor (E-AB) for thrombin detection (*Angew. Chem. Int. Ed.*, 2005) |
 | 2005 | Extension of the E-AB concept to the detection of small molecules (cocaine, ATP) |
 
 *The fundamental principle*: the aptamer, immobilised on the electrode via a thiol-gold bond, carries a redox label (typically methylene blue, MB). Upon target recognition, the conformational change of the aptamer brings the MB closer to or further from the electrode surface, modulating electron transfer and hence the current measured by SWV.

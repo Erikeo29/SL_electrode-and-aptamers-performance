@@ -9,5 +9,5 @@ ASSETS_PATH = os.path.join(ROOT_DIR, "assets")
 CSS_PATH = os.path.join(ASSETS_PATH, "style.css")
 
 # --- Version ---
-VERSION = "1.0.0"
-VERSION_DATE = "Feb 2026"
+VERSION = "1.2.0"
+VERSION_DATE = "Nov 2025"

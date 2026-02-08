@@ -18,9 +18,9 @@ Tout commence, comme pour la voltamétrie cyclique, avec la goutte de mercure de
 |-------|-----------|
 | 1922 | **Jaroslav Heyrovský** invente la polarographie à l'électrode à goutte de mercure tombante (DME) à Prague |
 | 1942 | **Barker** commence ses travaux sur les techniques pulsées au laboratoire d'Harwell (Royaume-Uni) |
-| 1957 | **Barker & Jenkins** développent la première polarographie à onde carrée, superposant un signal carré de faible amplitude à la rampe de potentiel |
+| 1952 | **Barker & Jenkins** développent la première polarographie à onde carrée (*The Analyst*, 1952), superposant un signal carré de faible amplitude à la rampe de potentiel |
 | 1959 | Heyrovský reçoit le **Prix Nobel de Chimie** pour ses travaux sur la polarographie |
-| 1969 | **Janet & Robert Osteryoung** modernisent la technique en couplant l'onde carrée à un signal en escalier (staircase), posant les bases de la SWV moderne |
+| 1969 | **Ramaley & Krause** couplent l'onde carrée à un signal en escalier (*staircase*), posant les bases de la SWV moderne (*Anal. Chem.*, 1969) |
 
 *L'idée clé* : en appliquant des impulsions plutôt qu'une rampe continue, on échantillonne le courant faradique au moment où le courant capacitif a décru, améliorant considérablement le rapport signal/bruit. Cette astuce, simple en apparence, allait transformer l'électrochimie analytique.
 
@@ -33,7 +33,7 @@ La SWV se distingue progressivement de la voltamétrie à impulsions différenti
 | **Osteryoung & O'Dea** | Raffinement de la théorie pour les systèmes réversibles et quasi-réversibles ; la SWV peut acquérir un voltammogramme complet en quelques secondes |
 | **Lovrić & Komorsky-Lovrić** | Développement de la théorie pour les espèces adsorbées en surface, directement applicable aux biocapteurs à aptamères |
 | **Courant net** | Le signal net $I_{net} = I_{forward} - I_{reverse}$ élimine la composante capacitive, offrant une sensibilité supérieure à la CV et à la DPV |
-| **Ramaley & Krause** | Premiers travaux théoriques reliant la forme du pic SWV aux paramètres cinétiques du système |
+| **Ramaley & Krause** | Premiers travaux théoriques (1969) reliant la forme du pic SWV aux paramètres cinétiques du système |
 
 Le principe de mesure repose sur trois courants mesurés à chaque pas de potentiel : le courant direct (*forward*), le courant inverse (*reverse*) et le courant net qui est leur différence. Cette décomposition permet non seulement d'éliminer le bruit capacitif, mais aussi de diagnostiquer la réversibilité du système.
 
@@ -49,10 +49,10 @@ Au tournant des années 1990, une révolution parallèle se produit en biologie 
 
 | Année | Événement |
 |-------|-----------|
-| 1990 | **Ellington & Szostak** (Harvard) inventent le terme "aptamère" (du latin *aptus*, adapté) et développent la méthode SELEX (Systematic Evolution of Ligands by EXponential enrichment) |
-| 1990 | **Tuerk & Gold** (Colorado) développent indépendamment la même méthode de sélection in vitro |
+| 1990 | **Ellington & Szostak** (Harvard) inventent le terme "aptamère" (du latin *aptus*, adapté) et démontrent la sélection in vitro d'oligonucléotides (*Nature*, 1990) |
+| 1990 | **Tuerk & Gold** (Colorado) développent indépendamment la même méthode de sélection in vitro, qu'ils nomment SELEX (*Systematic Evolution of Ligands by EXponential enrichment*) (*Science*, 1990) |
 | 1996 | Premiers aptamères ADN sélectionnés pour des cibles de petite taille (ATP, théophylline) |
-| 2003 | **Xiao, Piorek, Plaxco & Heeger** (UCSB) réalisent le premier biocapteur électrochimique à aptamère (E-AB) pour la détection de la thrombine |
+| 2005 | **Xiao, Lubin, Heeger & Plaxco** (UCSB) réalisent le premier biocapteur électrochimique à aptamère (E-AB) pour la détection de la thrombine (*Angew. Chem. Int. Ed.*, 2005) |
 | 2005 | Extension du concept E-AB à la détection de petites molécules (cocaïne, ATP) |
 
 *Le principe fondamental* : l'aptamère, immobilisé sur l'électrode via une liaison thiol-or, porte un marqueur redox (typiquement le bleu de méthylène, MB). Lors de la reconnaissance de la cible, le changement conformationnel de l'aptamère rapproche ou éloigne le MB de la surface de l'électrode, modulant le transfert d'électrons et donc le courant mesuré en SWV.

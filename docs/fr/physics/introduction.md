@@ -33,7 +33,7 @@ Le courant net est défini par :
 
 $$I_{net} = I_{forward} - I_{reverse}$$
 
-Cette soustraction élimine la composante capacitive (courant de charge de la double couche), identique en amplitude pour les deux impulsions. Seul le courant faradique, proportionnel à la concentration de l'espèce électroactive, est conservé. La SWV offre ainsi un rapport signal-sur-bruit nettement supérieur à celui de la CV.
+Cette soustraction réduit fortement la composante capacitive (courant de charge de la double couche), quasi identique en amplitude pour les deux impulsions symétriques. Seul le courant faradique, proportionnel à la concentration de l'espèce électroactive, est conservé. La SWV offre ainsi un rapport signal-sur-bruit nettement supérieur à celui de la CV.
 
 ### 1.4 Paramètres typiques
 
@@ -55,9 +55,11 @@ Le bleu de méthylène (MB) est un colorant cationique de la famille des **phén
 
 - un **noyau tricyclique phénothiazinique** : deux cycles benzéniques fusionnés à un cycle central thiazine contenant un atome de soufre (S) et un atome d'azote (N) ;
 - deux groupes **diméthylamino** —N(CH₃)₂ en positions 3 et 7, responsables de la couleur bleue ;
-- un **groupe méthyle** —CH₃ sur l'azote central du cycle thiazine, conférant à la molécule sa charge positive permanente.
+- une **charge positive permanente** délocalisée sur le système aromatique conjugué (cation thiazinium), stabilisée par la résonance à travers le noyau tricyclique.
 
 > Formule brute : C₁₆H₁₈N₃S⁺ (cation) · Cl⁻ (contre-ion) — masse molaire : 319,85 g/mol.
+
+![Formule semi-développée du bleu de méthylène](../../../assets/illustrations/methylene_blue_structure.png)
 
 Le MB est conjugué de manière covalente à l'extrémité distale (5') de l'aptamère, lui-même ancré sur la surface d'or de l'électrode via une liaison thiol (extrémité 3').
 
@@ -75,7 +77,60 @@ Le potentiel $E^0$ dépend du pH selon la relation de Nernst : déplacement d'en
 
 ### 2.3 Mécanisme de détection
 
-En l'absence de cible, l'aptamère adopte une conformation qui maintient le MB proche de la surface de l'électrode, permettant un transfert d'électrons efficace. Lorsque la cible se lie à l'aptamère, le changement conformationnel éloigne le MB de la surface, réduisant le courant de pic. La variation de courant est proportionnelle à la concentration de cible.
+#### Conformation de l'aptamère
+
+Un aptamère est un oligonucléotide d'ADN simple brin (typiquement 25 à 50 nucléotides pour les biocapteurs E-AB) dont la **conformation** — c'est-à-dire l'arrangement spatial tridimensionnel — est gouvernée par :
+
+- l'**appariement intramoléculaire** de bases (liaisons hydrogène de type Watson-Crick : A-T, G-C), formant des structures secondaires (tiges, boucles, jonctions) ;
+- l'**empilement π-π** (*base stacking*) entre nucléobases adjacentes, stabilisant les segments hélicoïdaux ;
+- la **répulsion électrostatique** entre groupes phosphate du squelette, partiellement écrantée par les contre-ions (Na⁺, K⁺, Mg²⁺).
+
+Sur la surface de l'électrode, l'aptamère ne possède pas une conformation figée mais explore un **ensemble conformationnel** dynamique, décrit statistiquement par une distribution de Boltzmann. C'est la distance **moyenne** du MB à la surface qui détermine l'efficacité du transfert d'électrons.
+
+#### Architecture de la sonde E-AB
+
+| Composant | Détail |
+|-----------|--------|
+| **Ancrage** | Extrémité 3' modifiée par un bras thiol C6 (HS-(CH₂)₆-) formant une liaison covalente Au-S (~170 kJ/mol) |
+| **Rapporteur redox** | Extrémité 5' (distale) marquée de manière covalente par le bleu de méthylène (MB) |
+| **Remplissage** | Monocouche auto-assemblée (SAM) de 6-mercapto-1-hexanol (MCH) déplaçant l'ADN adsorbé non spécifiquement et forçant les aptamères en position verticale par répulsion dipolaire entre le terminus -OH du MCH et le squelette ADN chargé négativement |
+
+La densité optimale de sondes est de l'ordre de $10^{12}$ sondes/cm², obtenue en ajustant le rapport molaire aptamère/MCH (typiquement 1:100).
+
+#### Liaison de la cible et commutation conformationnelle
+
+La détection repose sur un mécanisme de **commutation structurale** (*structure-switching*) : l'aptamère possède une structure secondaire pré-formée qui est déstabilisée par la liaison de la cible. Le complexe est stabilisé par un ensemble de forces non covalentes : liaisons hydrogène, interactions électrostatiques, forces de van der Waals, effet hydrophobe et empilement π-π.
+
+Pour un biocapteur de type ***signal-off*** (configuration la plus courante avec MB) :
+
+1. **Sans cible** : l'aptamère forme une structure tige-boucle (*stem-loop*) compacte. Le MB, lié à l'extrémité 5', est maintenu **proche** de la surface (distance MB-surface $d \approx 1$–$2$ nm).
+2. **Avec cible** : la cible se lie à l'aptamère, déstabilisant la tige. L'aptamère se déplie en une conformation plus étendue, éloignant le MB de la surface ($d \approx 5$–$10$ nm).
+
+> *Note : d'autres architectures E-AB fonctionnent en mode **signal-on**, où la liaison de la cible rapproche le MB de la surface (mécanisme d'ajustement induit). Le choix du mode dépend de la séquence de l'aptamère et de la conception de la sonde.*
+
+#### Dépendance exponentielle du transfert d'électrons avec la distance
+
+La constante de vitesse du transfert d'électrons hétérogène $k_{ET}$ entre le MB et l'électrode d'or suit une **décroissance exponentielle** avec la distance, gouvernée par l'effet tunnel quantique :
+
+$$k_{ET} = k_0 \cdot \exp(-\beta \cdot d)$$
+
+où $k_0$ est le facteur pré-exponentiel au contact ($\sim 10^6$–$10^8$ s⁻¹ pour un linker thiol C6 sur or), $\beta$ est la constante de décroissance du tunnel et $d$ est la distance MB-surface en ångströms.
+
+Pour le **linker alkylthiol** ordonné (SAM), $\beta \approx 0.9$–$1.1$ Å⁻¹ (transfert par effet tunnel à travers la chaîne). Cependant, pour le transfert à travers la **structure flexible de l'aptamère** (ADN simple brin en solution), le mécanisme est plus complexe (transfert via le solvant, hopping) et la constante $\beta$ effective est nettement plus faible ($\approx 0.1$–$0.4$ Å⁻¹).
+
+Cette dépendance exponentielle signifie qu'un changement conformationnel déplaçant le MB de $d \approx 15$ Å (replié) à $d \approx 60$ Å (déplié) produit une diminution du courant de pic typiquement de **30 à 80 %**, ce qui est largement suffisant pour une mesure quantitative.
+
+#### De la liaison moléculaire au voltammogramme SWV
+
+La chaîne de transduction complète est la suivante :
+
+1. La **cible** se lie à l'aptamère (affinité caractérisée par $K_d \sim$ nM–µM).
+2. Le **changement conformationnel** éloigne le MB de la surface d'or.
+3. La constante de transfert d'électrons $k_{ET}$ **diminue** (décroissance exponentielle avec la distance).
+4. Lors de l'interrogation SWV, les courants *forward* et *reverse* diminuent, entraînant une **réduction du courant net** $I_{net}$.
+5. La variation relative de signal $\Delta I / I_0 = (I_{cible} - I_0) / I_0 < 0$ est **proportionnelle à la concentration de cible**, suivant une isotherme de Langmuir :
+
+$$\frac{\Delta I}{I_0} = \left(\frac{\Delta I}{I_0}\right)_{max} \cdot \frac{[\text{Cible}]}{K_d + [\text{Cible}]}$$
 
 ![Principe du biocapteur E-AB : sans cible (gauche) vs avec cible (droite)](../../../assets/illustrations/eab_biosensor_structure.png)
 
@@ -85,11 +140,11 @@ En l'absence de cible, l'aptamère adopte une conformation qui maintient le MB p
 
 ### 3.1 $I_{peak}$ — courant de pic (nA)
 
-L'amplitude maximale du pic faradique après soustraction de la ligne de base. Directement proportionnel à :
+L'amplitude maximale du pic faradique après soustraction de la ligne de base. En régime réversible, directement proportionnel à :
 
 - La densité surfacique d'aptamères électroactifs $\Gamma_{eff}$ (mol/cm²)
-- La fréquence SWV $f$ (Hz)
-- Le nombre d'électrons échangés ($n = 2$ pour MB)
+- La fréquence SWV $f$ (Hz) — la linéarité diminue en régime quasi-réversible
+- Le carré du nombre d'électrons échangés ($n^2$, avec $n = 2$ pour MB)
 
 ### 3.2 $E_{peak}$ — potentiel de pic (V)
 
@@ -101,11 +156,11 @@ Potentiel auquel le courant net atteint son maximum. Pour un système réversibl
 
 ### 3.3 FWHM — largeur à mi-hauteur (mV)
 
-La largeur totale à mi-hauteur du pic SWV. Pour un système idéal nernstien avec $n$ électrons :
+La largeur totale à mi-hauteur du pic SWV. Pour un système idéal nernstien d'espèces adsorbées en surface avec $n$ électrons, la limite théorique (dérivée de l'équation de Nernst-Langmuir, servant de référence pour la SWV) est :
 
-$$\text{FWHM}_{idéal} = \frac{90.6}{n} \text{ mV} \quad (25\,°\text{C})$$
+$$\text{FWHM}_{réf} = \frac{3.53\,RT}{nF} = \frac{90.6}{n} \text{ mV} \quad (25\,°\text{C})$$
 
-Pour le bleu de méthylène ($n = 2$) : $\text{FWHM}_{idéal} = 45.3$ mV. Un élargissement au-delà de cette valeur indique une quasi-réversibilité cinétique, une hétérogénéité de surface ou une résistance non compensée.
+Pour le bleu de méthylène ($n = 2$) : $\text{FWHM}_{réf} \approx 45.3$ mV. En SWV, la largeur dépend aussi de l'amplitude d'impulsion $\delta E_p$. Un élargissement au-delà de cette valeur de référence indique une quasi-réversibilité cinétique, une hétérogénéité de surface ou une résistance non compensée.
 
 ### 3.4 SNR — rapport signal-sur-bruit
 
@@ -115,7 +170,7 @@ Un SNR $> 10$ est généralement requis pour une mesure quantitative fiable. Un 
 
 ### 3.5 $I_{baseline}$ — courant de ligne de base (µA)
 
-Le courant de fond mesuré loin du pic faradique, reflétant la contribution capacitive résiduelle et les courants parasites. Proportionnel à la surface réelle de l'électrode ($\propto \text{RF}$) et à la capacité de double couche $C_{dl}$.
+Le courant de fond mesuré loin du pic faradique, reflétant la contribution capacitive résiduelle et les courants parasites après soustraction SWV. Proportionnel à la surface réelle de l'électrode via la capacité de double couche ($C_{dl} \propto \text{RF}$).
 
 ### 3.6 $IR_{drop}$ — chute ohmique (mV)
 

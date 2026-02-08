@@ -1,4 +1,4 @@
-**Author's note** — *This project was designed entirely by the author, from a blank page to its deployment. Content creation was carried out with the support of artificial intelligence tools, particularly for writing and debugging code and for internet research. All results shown in this project come from deterministic physical models solved by finite elements (Firedrake). This work is provided as open-source: it can be freely copied, duplicated and adapted for learning purposes.*
+**Author's note** — *This project was designed entirely by the author, from a blank page to its deployment. Content creation was carried out with the support of artificial intelligence tools, particularly for writing and debugging code and for internet research. All results shown in this project come from deterministic physical models (Butler-Volmer kinetics for surface-adsorbed species). This work is provided as open-source: it can be freely copied, duplicated and adapted for learning purposes.*
 
 &nbsp;
 
@@ -16,7 +16,7 @@
 
 Their signal relies on **square wave voltammetry** (SWV, *Square Wave Voltammetry*), a pulsed electrochemical technique which interrogates a redox reporter — methylene blue — attached to the end of an aptamer anchored on a gold electrode.
 
-Signal quality depends on many factors: electrode surface condition (roughness, composition, contamination), instrumental parameters (SWV frequency) and measurement conditions (contact resistance). This application gathers **three parametric studies** simulated by finite elements to quantify the influence of each factor on voltammogram metrics:
+Signal quality depends on many factors: electrode surface condition (roughness, composition, contamination), instrumental parameters (SWV frequency) and measurement conditions (contact resistance). This application gathers **three parametric studies** simulated numerically to quantify the influence of each factor on voltammogram metrics:
 
 - $I_{peak}$ — peak current (nA)
 - $E_{peak}$ — peak potential (V)
@@ -57,6 +57,6 @@ Navigation in this application is structured around the following tools:
 
 ## 4. Methodological note
 
-The results presented come from finite element simulations solved using **Firedrake** with the **EchemFEM** package. The solver resolves the unsteady diffusion equation within the aptamer film, coupled to Butler-Volmer kinetics at the electrode surface. Metric extraction ($I_{peak}$, $E_{peak}$, FWHM, SNR) is performed by Gaussian fitting of the SWV peak.
+The results presented come from numerical simulations based on a **surface ODE model** (adsorbed species, no spatial mesh). The solver resolves Butler-Volmer kinetics for the adsorbed redox species coverage fractions ($\Gamma_{ox}$, $\Gamma_{red}$), coupled to the SWV protocol (staircase + pulses). Time integration uses an **implicit Euler** scheme (Python/NumPy). Metric extraction ($I_{peak}$, $E_{peak}$, FWHM, SNR) is performed by Gaussian fitting of the SWV peak. This work is part of a broader project using **Firedrake** and **EchemFEM** for finite element electrochemical modelling.
 
 This application is a **results viewer**, not a real-time simulator. The source code is available in the "Code" tabs of each study to allow reproduction.

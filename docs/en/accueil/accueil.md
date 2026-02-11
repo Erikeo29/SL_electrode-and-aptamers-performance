@@ -1,4 +1,4 @@
-**Author's note** — *This project was designed entirely by the author, from a blank page to its deployment. Content creation was carried out with the support of artificial intelligence tools, particularly for writing and debugging code and for internet research. All results shown in this project come from deterministic physical models (Butler-Volmer kinetics for surface-adsorbed species). This work is provided as open-source: it can be freely copied, duplicated and adapted for learning purposes.*
+**Author's note** — *This project was designed entirely by the author, from a blank page to its deployment. Content creation was carried out with the support of artificial intelligence tools, particularly for writing and debugging code and for internet research. All results shown in this project come from deterministic physical models (Butler-Volmer kinetics for surface-adsorbed species). This work is made available to be freely copied, duplicated and adapted for learning purposes.*
 
 &nbsp;
 

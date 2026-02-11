@@ -1,4 +1,4 @@
-**Note de l'auteur** — *Ce projet a été conçu intégralement par l'auteur, depuis une page blanche jusqu'à sa mise en ligne. La création du contenu a été réalisée avec le support d'outils d'intelligence artificielle, en particulier pour la rédaction et la correction des codes et pour les recherches internet. Tous les résultats montrés dans ce projet sont issus de modèles physiques déterministes (cinétique de Butler-Volmer pour espèces adsorbées en surface). Ce travail est mis à disposition en open-source : il peut être librement copié, dupliqué et adapté à des fins d'apprentissage.*
+**Note de l'auteur** — *Ce projet a été conçu intégralement par l'auteur, depuis une page blanche jusqu'à sa mise en ligne. La création du contenu a été réalisée avec le support d'outils d'intelligence artificielle, en particulier pour la rédaction et la correction des codes et pour les recherches internet. Tous les résultats montrés dans ce projet sont issus de modèles physiques déterministes (cinétique de Butler-Volmer pour espèces adsorbées en surface). Ce travail est mis à disposition pour être librement copié, dupliqué et adapté à des fins d'apprentissage.*
 
 &nbsp;
 

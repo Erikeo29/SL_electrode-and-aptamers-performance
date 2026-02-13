@@ -44,12 +44,12 @@ Influence de la résistance non compensée $R_u$ (0 à 1000 $\Omega$) en interac
 
 ## 3. Navigation
 
-La navigation dans cette application est structurée autour des outils suivants :
+La navigation dans les différentes pages de cette application est structurée avec les outils suivants :
 
-1. **Menu latéral (à gauche)** : navigation principale entre les sections du projet.
+1. **Menu latéral (à gauche)** : outil de navigation entre les différentes sections du projet :
    - **Introduction** : principe de la SWV, pic du bleu de méthylène, métriques extraites.
-   - **Pages par étude** : chaque étude contient des onglets Physique (modèles physiques et équations), Code (codes sources commentés), Résultats (filtres en cascade et comparaison côte à côte de 2 simulations) et Analyse (graphiques d'ensemble et rapport statistique).
-   - **Annexes** : synthèse et conclusion, lexique, équations clés, un peu d'histoire, références bibliographiques.
+   - **Résultats de modélisation** : chaque étude contient des onglets Physique (modèles physiques et équations), Code (codes sources commentés), Résultats (filtres en cascade et comparaison côte à côte de 2 simulations) et Analyse (graphiques d'ensemble et rapport statistique).
+   - **Annexes** : synthèse et conclusion, lexique, équations clés, références bibliographiques et une page d'histoire sur les principaux chercheurs et scientifiques ayant contribué aux concepts physiques et numériques présentés.
 
 2. **Boutons de navigation flottants (à droite)** : déplacement rapide haut/bas de page.
 

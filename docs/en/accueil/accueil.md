@@ -44,12 +44,12 @@ Influence of uncompensated resistance $R_u$ (0 to 1000 $\Omega$) interacting wit
 
 ## 3. Navigation
 
-Navigation in this application is structured around the following tools:
+Navigation through the different pages of this application is structured with the following tools:
 
-1. **Side menu (left)**: main navigation between project sections.
+1. **Side menu (left)**: navigation tool between the different sections of the project:
    - **Introduction**: SWV principle, methylene blue peak, extracted metrics.
-   - **Study pages**: each study contains tabs for Physics (physical models and equations), Code (commented source code), Results (cascade filters and side-by-side comparison of 2 simulations) and Analysis (overview plots and statistical report).
-   - **Appendices**: synthesis and conclusion, glossary, key equations, a bit of history, bibliographical references.
+   - **Modeling results**: each study contains tabs for Physics (physical models and equations), Code (commented source code), Results (cascade filters and side-by-side comparison of 2 simulations) and Analysis (overview plots and statistical report).
+   - **Appendices**: synthesis and conclusion, glossary, key equations, bibliographical references and a history page on the main researchers and scientists who contributed to the physical and numerical concepts presented.
 
 2. **Floating navigation buttons (right)**: quick scroll up/down the page.
 

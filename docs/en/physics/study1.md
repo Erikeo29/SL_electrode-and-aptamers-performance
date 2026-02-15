@@ -39,7 +39,7 @@ The percentage of surface area where the nickel underlayer is exposed through de
 | Level | $\text{Ni}_{exposed}$ (%) | Description |
 |-------|---------------------------|-------------|
 | 1 | 0 | Intact gold layer |
-| 2 | 3 | Minor defects |
+| 2 | 2 | Minor defects |
 | 3 | 5 | Moderate defects |
 | 4 | 10 | Major defects |
 

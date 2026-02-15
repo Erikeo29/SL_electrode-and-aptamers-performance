@@ -95,7 +95,7 @@ Cette étude examine l'influence de la fréquence de la voltammétrie à onde ca
 | Facteur | Niveaux | Valeurs |
 |---------|---------|---------|
 | RF | 4 | 1.0, 1.5, 2.0, 3.0 |
-| $\text{Ni}_{exposed}$ | 3 | 0, 3, 10 % |
+| $\text{Ni}_{exposed}$ | 3 | 0, 2, 5 % |
 | Fréquence $f$ | 6 | 10, 25, 50, 100, 200, 500 Hz |
 
 ### 3.3 Nombre total de combinaisons

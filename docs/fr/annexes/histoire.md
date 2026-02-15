@@ -17,7 +17,6 @@ Tout commence, comme pour la voltamétrie cyclique, avec la goutte de mercure de
 | Année | Événement |
 |-------|-----------|
 | 1922 | **Jaroslav Heyrovský** invente la polarographie à l'électrode à goutte de mercure tombante (DME) à Prague |
-| 1942 | **Barker** commence ses travaux sur les techniques pulsées au laboratoire d'Harwell (Royaume-Uni) |
 | 1952 | **Barker & Jenkins** développent la première polarographie à onde carrée (*The Analyst*, 1952), superposant un signal carré de faible amplitude à la rampe de potentiel |
 | 1959 | Heyrovský reçoit le **Prix Nobel de Chimie** pour ses travaux sur la polarographie |
 | 1969 | **Ramaley & Krause** couplent l'onde carrée à un signal en escalier (*staircase*), posant les bases de la SWV moderne (*Anal. Chem.*, 1969) |
@@ -30,7 +29,7 @@ La SWV se distingue progressivement de la voltamétrie à impulsions différenti
 
 | Contribution | Impact |
 |--------------|--------|
-| **Osteryoung & O'Dea** | Raffinement de la théorie pour les systèmes réversibles et quasi-réversibles ; la SWV peut acquérir un voltammogramme complet en quelques secondes |
+| **Osteryoung** et collaborateurs | Raffinement de la théorie pour les systèmes réversibles et quasi-réversibles ; la SWV peut acquérir un voltammogramme complet en quelques secondes |
 | **Lovrić & Komorsky-Lovrić** | Développement de la théorie pour les espèces adsorbées en surface, directement applicable aux biocapteurs à aptamères |
 | **Courant net** | Le signal net $I_{net} = I_{forward} - I_{reverse}$ élimine la composante capacitive, offrant une sensibilité supérieure à la CV et à la DPV |
 | **Ramaley & Krause** | Premiers travaux théoriques (1969) reliant la forme du pic SWV aux paramètres cinétiques du système |
@@ -51,7 +50,7 @@ Au tournant des années 1990, une révolution parallèle se produit en biologie 
 |-------|-----------|
 | 1990 | **Ellington & Szostak** (Harvard) inventent le terme "aptamère" (du latin *aptus*, adapté) et démontrent la sélection in vitro d'oligonucléotides (*Nature*, 1990) |
 | 1990 | **Tuerk & Gold** (Colorado) développent indépendamment la même méthode de sélection in vitro, qu'ils nomment SELEX (*Systematic Evolution of Ligands by EXponential enrichment*) (*Science*, 1990) |
-| 1996 | Premiers aptamères ADN sélectionnés pour des cibles de petite taille (ATP, théophylline) |
+| 1994–1995 | Premiers aptamères sélectionnés pour des cibles de petite taille : théophylline (Jenison *et al.*, *Science* 1994, ARN) et ATP (Huizenga & Szostak, *Biochemistry* 1995, ADN) |
 | 2005 | **Xiao, Lubin, Heeger & Plaxco** (UCSB) réalisent le premier biocapteur électrochimique à aptamère (E-AB) pour la détection de la thrombine (*Angew. Chem. Int. Ed.*, 2005) |
 | 2005 | Extension du concept E-AB à la détection de petites molécules (cocaïne, ATP) |
 

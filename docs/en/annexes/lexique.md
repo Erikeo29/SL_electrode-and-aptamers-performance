@@ -14,7 +14,7 @@
 | **SWV** | Square Wave Voltammetry | Pulsed electroanalytical technique; net current $I_{net} = I_{forward} - I_{reverse}$ eliminates the capacitive component |
 | **CV** | Cyclic Voltammetry | Linear potential sweep technique; less sensitive than SWV (no capacitive subtraction) |
 | **EIS** | Electrochemical Impedance Spectroscopy | Frequency-domain technique to extract equivalent circuit parameters ($R_u$, $C_{dl}$, $R_{ct}$) |
-| **MB** | Methylene Blue | Phenothiazine redox reporter; $\text{MB}_{ox} + 2e^- + 2H^+ \rightleftharpoons \text{MB}_{red}$; $E^0 = -0.24$ V vs Ag/AgCl at pH 7.4 |
+| **MB** | Methylene Blue | Phenothiazine redox reporter; $\text{MB}_{ox} + 2e^- + H^+ \rightleftharpoons \text{MB}_{red}$; $E^0 = -0.24$ V vs Ag/AgCl at pH 7.4 |
 | **CPE** | Constant Phase Element | Equivalent circuit element for non-ideal capacitance; $Z_{CPE} = 1/[Q_0(j\omega)^{n_{CPE}}]$ |
 | **BV** | Butler-Volmer | Electrochemical kinetic model relating faradaic current to overpotential |
 | **FEM** | Finite Element Method | Numerical method for solving PDEs; Firedrake solver used in this project |

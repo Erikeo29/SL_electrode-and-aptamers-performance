@@ -43,7 +43,7 @@
 
 > **E-AB** = *Electrochemical Aptamer-Based sensors* : biocapteurs utilisant des aptamères (brins d'ADN/ARN) immobilisés sur une électrode et portant un rapporteur redox (bleu de méthylène). Le changement conformationnel de l'aptamère lors de la liaison avec la cible modifie le signal électrochimique.
 
-5. **Şahin, S. et al.**
+5. **Radi, A.; Abd-Ellatief, M. R.**
    *"Electrochemical Aptasensors: Current Status and Future Perspectives."*
    Diagnostics **2021**, 11(1), 104.
    - [Texte intégral PMC (PMC7828092)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7828092/)
@@ -61,11 +61,11 @@
    - [Article PNAS (accès libre)](https://www.pnas.org/doi/10.1073/pnas.1613458114)
    - Démonstration in vivo de capteurs E-AB interrogés par SWV en continu sur des rats ambulatoires.
 
-8. **Arroyo-Currás, N. et al.**
+8. **Dauphin-Ducharme, P. et al.**
    *"Electrochemical Aptamer-Based Sensors for Improved Therapeutic Drug Monitoring and High-Precision, Feedback-Controlled Drug Delivery."*
-   ACS Pharmacol. Transl. Sci. **2018**, 1(2), 110-118.
+   ACS Sensors **2019**, 4(10), 2832-2837.
    - [Texte intégral PMC (PMC6886665)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6886665/)
-   - Capteurs E-AB pour le suivi pharmacologique en temps réel (vancomycine) ; potentiel de rétrocontrôle de dosage.
+   - Capteurs E-AB pour le suivi pharmacologique en temps réel ; potentiel de rétrocontrôle de dosage.
 
 ---
 
@@ -117,7 +117,7 @@
 
 15. **Rathgeber, F.; Ham, D. A. et al.**
     *"Firedrake: automating the finite element method by composing abstractions."*
-    arXiv preprint **2015**, arXiv:1501.01809.
+    ACM Trans. Math. Softw. **2017**, 43(3), 24. (arXiv 2015, 1501.01809)
     - [PDF direct (arXiv)](https://arxiv.org/pdf/1501.01809)
     - Article fondateur de Firedrake : composition d'abstractions pour la résolution d'EDP par éléments finis.
 

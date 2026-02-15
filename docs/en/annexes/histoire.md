@@ -17,7 +17,6 @@ Everything begins, as with cyclic voltammetry, with Heyrovský's mercury drop in
 | Year | Event |
 |------|-------|
 | 1922 | **Jaroslav Heyrovský** invents polarography using the dropping mercury electrode (DME) in Prague |
-| 1942 | **Barker** begins his work on pulsed techniques at the Harwell laboratory (United Kingdom) |
 | 1952 | **Barker & Jenkins** develop the first square wave polarography (*The Analyst*, 1952), superimposing a low-amplitude square wave signal on the potential ramp |
 | 1959 | Heyrovský receives the **Nobel Prize in Chemistry** for his work on polarography |
 | 1969 | **Ramaley & Krause** couple the square wave to a staircase signal, laying the foundations of modern SWV (*Anal. Chem.*, 1969) |
@@ -30,7 +29,7 @@ SWV gradually distinguishes itself from differential pulse voltammetry (DPV) thr
 
 | Contribution | Impact |
 |--------------|--------|
-| **Osteryoung & O'Dea** | Refinement of the theory for reversible and quasi-reversible systems; SWV can acquire a complete voltammogram in a few seconds |
+| **Osteryoung** and collaborators | Refinement of the theory for reversible and quasi-reversible systems; SWV can acquire a complete voltammogram in a few seconds |
 | **Lovrić & Komorsky-Lovrić** | Development of the theory for surface-adsorbed species, directly applicable to aptamer-based biosensors |
 | **Net current** | The net signal $I_{net} = I_{forward} - I_{reverse}$ eliminates the capacitive component, offering superior sensitivity compared to CV and DPV |
 | **Ramaley & Krause** | First theoretical work (1969) relating the SWV peak shape to the kinetic parameters of the system |
@@ -51,7 +50,7 @@ At the turn of the 1990s, a parallel revolution occurred in molecular biology: t
 |------|-------|
 | 1990 | **Ellington & Szostak** (Harvard) coin the term "aptamer" (from the Latin *aptus*, fit) and demonstrate in vitro selection of oligonucleotides (*Nature*, 1990) |
 | 1990 | **Tuerk & Gold** (Colorado) independently develop the same in vitro selection method, coining the term SELEX (*Systematic Evolution of Ligands by EXponential enrichment*) (*Science*, 1990) |
-| 1996 | First DNA aptamers selected for small-molecule targets (ATP, theophylline) |
+| 1994–1995 | First aptamers selected for small-molecule targets: theophylline (Jenison *et al.*, *Science* 1994, RNA) and ATP (Huizenga & Szostak, *Biochemistry* 1995, DNA) |
 | 2005 | **Xiao, Lubin, Heeger & Plaxco** (UCSB) produce the first electrochemical aptamer-based biosensor (E-AB) for thrombin detection (*Angew. Chem. Int. Ed.*, 2005) |
 | 2005 | Extension of the E-AB concept to the detection of small molecules (cocaine, ATP) |
 

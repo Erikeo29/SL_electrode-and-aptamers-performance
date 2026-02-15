@@ -43,7 +43,7 @@
 
 > **E-AB** = *Electrochemical Aptamer-Based sensors*: biosensors using aptamers (DNA/RNA strands) immobilised on an electrode and bearing a redox reporter (methylene blue). The aptamer's conformational change upon target binding modifies the electrochemical signal.
 
-5. **Şahin, S. et al.**
+5. **Radi, A.; Abd-Ellatief, M. R.**
    *"Electrochemical Aptasensors: Current Status and Future Perspectives."*
    Diagnostics **2021**, 11(1), 104.
    - [PMC full text (PMC7828092)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7828092/)
@@ -61,11 +61,11 @@
    - [PNAS article (open access)](https://www.pnas.org/doi/10.1073/pnas.1613458114)
    - In vivo demonstration of E-AB sensors interrogated by continuous SWV in ambulatory rats.
 
-8. **Arroyo-Currás, N. et al.**
+8. **Dauphin-Ducharme, P. et al.**
    *"Electrochemical Aptamer-Based Sensors for Improved Therapeutic Drug Monitoring and High-Precision, Feedback-Controlled Drug Delivery."*
-   ACS Pharmacol. Transl. Sci. **2018**, 1(2), 110-118.
+   ACS Sensors **2019**, 4(10), 2832-2837.
    - [PMC full text (PMC6886665)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6886665/)
-   - E-AB sensors for real-time pharmacological monitoring (vancomycin); feedback-controlled dosing potential.
+   - E-AB sensors for real-time pharmacological monitoring; feedback-controlled dosing potential.
 
 ---
 
@@ -117,7 +117,7 @@
 
 15. **Rathgeber, F.; Ham, D. A. et al.**
     *"Firedrake: automating the finite element method by composing abstractions."*
-    arXiv preprint **2015**, arXiv:1501.01809.
+    ACM Trans. Math. Softw. **2017**, 43(3), 24. (arXiv 2015, 1501.01809)
     - [Direct PDF (arXiv)](https://arxiv.org/pdf/1501.01809)
     - Founding paper of Firedrake: composing abstractions for PDE solving with finite elements.
 

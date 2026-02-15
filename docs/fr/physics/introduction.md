@@ -65,15 +65,15 @@ Le MB est conjugué de manière covalente à l'extrémité distale (5') de l'apt
 
 ### 2.2 Réaction redox
 
-La réaction redox du bleu de méthylène implique deux électrons et deux protons :
+La réaction redox du bleu de méthylène implique deux électrons et un proton (à pH 7.4) :
 
-$$\text{MB}_{ox} + 2e^- + 2H^+ \rightleftharpoons \text{MB}_{red}$$
+$$\text{MB}_{ox} + 2e^- + H^+ \rightleftharpoons \text{MB}_{red}$$
 
 Le pic de courant est centré autour du potentiel standard apparent :
 
 $$E^0 = -0.24 \text{ V vs Ag/AgCl} \quad (\text{pH } 7.4, \text{ tampon PBS})$$
 
-Le potentiel $E^0$ dépend du pH selon la relation de Nernst : déplacement d'environ $-59$ mV par unité de pH à 25 °C pour un processus impliquant autant de protons que d'électrons.
+Le potentiel $E^0$ dépend du pH selon la relation de Nernst : déplacement de $-(m/n) \times 59$ mV par unité de pH à 25 °C, où $m$ et $n$ sont les nombres de protons et d'électrons échangés. Pour le MB à pH 7.4 ($m = 1$, $n = 2$) : $-29.5$ mV/pH.
 
 ### 2.3 Mécanisme de détection
 

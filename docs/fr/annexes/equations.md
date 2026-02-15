@@ -151,7 +151,7 @@ Pour une électrode à composition variable, la constante cinétique effective e
 
 $$ k^0_{eff} = k^0_{Au} \times f_{Au} + k^0_{Ni} \times f_{Ni} + k^0_{Cu} \times f_{Cu} $$
 
-Où $f_{Au} + f_{Ni} + f_{Cu} = 1$ et chaque $k^0_i$ est la constante cinétique intrinsèque du métal $i$ [s$^{-1}$].
+Où $f_{Au} + f_{Ni} + f_{Cu} + f_{contamination} = 1$ et chaque $k^0_i$ est la constante cinétique intrinsèque du métal $i$ [s$^{-1}$].
 
 ### 5.2 Densité surfacique effective
 

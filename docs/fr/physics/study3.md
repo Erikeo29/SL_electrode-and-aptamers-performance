@@ -96,8 +96,8 @@ Cette étude examine l'influence de la résistance non compensée ($R_u$) sur la
 
 | Facteur | Niveaux | Valeurs |
 |---------|---------|---------|
-| RF | 3 | 1.0, 1.5, 3.0 |
-| $\text{Ni}_{exposed}$ | 3 | 0, 3, 10 % |
+| RF | 3 | 1.0, 2.0, 5.0 |
+| $\text{Ni}_{exposed}$ | 3 | 0, 5, 10 % |
 | $R_u$ | 6 | 0, 50, 100, 200, 500, 1000 $\Omega$ |
 
 ### 3.3 Nombre total de combinaisons

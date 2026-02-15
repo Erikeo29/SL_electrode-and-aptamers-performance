@@ -16,7 +16,7 @@ Glossaire des termes, acronymes et symboles utilisés dans la documentation du b
 | **SWV** | Square Wave Voltammetry | Voltammétrie à onde carrée. Technique électroanalytique pulsée superposant un signal carré symétrique ($\pm\,\delta E_p$) à un escalier de potentiel ($\delta E_s$). Le courant net $I_{net} = I_{forward} - I_{reverse}$ élimine la composante capacitive. |
 | **CV** | Cyclic Voltammetry | Voltammétrie cyclique. Balayage linéaire du potentiel entre deux bornes. Moins sensible que la SWV. |
 | **EIS** | Electrochemical Impedance Spectroscopy | Spectroscopie d'impédance électrochimique. Technique complémentaire mesurant la réponse en fréquence pour extraire $R_u$, $C_{dl}$, $R_{ct}$. |
-| **MB** | Methylene Blue | Bleu de méthylène. Rapporteur redox phénothiazinique : $\text{MB}_{ox} + 2e^- + 2H^+ \rightleftharpoons \text{MB}_{red}$, $E^0 = -0.24$ V vs Ag/AgCl (pH 7.4). |
+| **MB** | Methylene Blue | Bleu de méthylène. Rapporteur redox phénothiazinique : $\text{MB}_{ox} + 2e^- + H^+ \rightleftharpoons \text{MB}_{red}$, $E^0 = -0.24$ V vs Ag/AgCl (pH 7.4). |
 | **CPE** | Constant Phase Element | Élément à phase constante. Modélise un comportement non idéal de la capacité : $Z_{CPE} = 1 / [Q_0(j\omega)^{n_{CPE}}]$ avec $0 < n_{CPE} \leq 1$. |
 | **BV** | Butler-Volmer | Modèle cinétique reliant le courant faradique à la surtension. |
 | **FEM** | Finite Element Method | Méthode des éléments finis. Approche numérique de résolution des EDP. |

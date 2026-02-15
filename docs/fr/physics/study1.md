@@ -39,7 +39,7 @@ Le pourcentage de surface où le nickel de la sous-couche est exposé à travers
 | Niveau | $\text{Ni}_{exposed}$ (%) | Description |
 |--------|---------------------------|-------------|
 | 1 | 0 | Couche d'or intacte |
-| 2 | 3 | Défauts mineurs |
+| 2 | 2 | Défauts mineurs |
 | 3 | 5 | Défauts modérés |
 | 4 | 10 | Défauts majeurs |
 

@@ -65,15 +65,15 @@ MB is covalently conjugated to the distal end (5') of the aptamer, which itself 
 
 ### 2.2 Redox reaction
 
-The methylene blue redox reaction involves two electrons and two protons:
+The methylene blue redox reaction involves two electrons and one proton (at pH 7.4):
 
-$$\text{MB}_{ox} + 2e^- + 2H^+ \rightleftharpoons \text{MB}_{red}$$
+$$\text{MB}_{ox} + 2e^- + H^+ \rightleftharpoons \text{MB}_{red}$$
 
 The current peak is centred around the apparent standard potential:
 
 $$E^0 = -0.24 \text{ V vs Ag/AgCl} \quad (\text{pH } 7.4, \text{ PBS buffer})$$
 
-The potential $E^0$ depends on pH according to the Nernst equation: a shift of approximately $-59$ mV per pH unit at 25 °C for a process involving equal numbers of protons and electrons.
+The potential $E^0$ depends on pH according to the Nernst equation: a shift of $-(m/n) \times 59$ mV per pH unit at 25 °C, where $m$ and $n$ are the numbers of protons and electrons exchanged. For MB at pH 7.4 ($m = 1$, $n = 2$): $-29.5$ mV/pH.
 
 ### 2.3 Detection mechanism
 

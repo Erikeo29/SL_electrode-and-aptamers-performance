@@ -95,7 +95,7 @@ This study examines the influence of Square Wave Voltammetry frequency on the ap
 | Factor | Levels | Values |
 |--------|--------|--------|
 | RF | 4 | 1.0, 1.5, 2.0, 3.0 |
-| $\text{Ni}_{exposed}$ | 3 | 0, 3, 10 % |
+| $\text{Ni}_{exposed}$ | 3 | 0, 2, 5 % |
 | Frequency | 6 | 10, 25, 50, 100, 200, 500 Hz |
 
 ### 3.3 Total number of combinations

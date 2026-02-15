@@ -22,7 +22,7 @@ TRANSLATIONS = {
             "Références bibliographiques",
         ],
         "tabs_study": ["Physique", "Code", "Résultats", "Analyse"],
-        "version_info": """**Version 1.2.0** — Nov 2025 — *EQU*
+        "version_info": """**Version 1.2.0** — Nov 2025
 
 **Nouveautés :**
 - Annexes (histoire, équations, biblio)
@@ -83,7 +83,7 @@ TRANSLATIONS = {
             "Bibliographical References",
         ],
         "tabs_study": ["Physics", "Code", "Results", "Analysis"],
-        "version_info": """**Version 1.2.0** — Nov 2025 — *EQU*
+        "version_info": """**Version 1.2.0** — Nov 2025
 
 **New features:**
 - Appendices (history, equations, bibliography)

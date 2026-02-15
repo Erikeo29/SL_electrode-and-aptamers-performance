@@ -414,7 +414,7 @@ elif selected_page == annex_pages[4]:
 
 # --- Footer licence ---
 st.markdown("---")
-st.markdown("© 2025 Eric QUEAU — [MIT License](https://opensource.org/licenses/MIT) — [GitHub](https://github.com/Erikeo29/SL_electrode-and-aptamers-performance)")
+st.markdown("© 2025 Eric QUEAU — [MIT License](https://opensource.org/licenses/MIT)")
 
 # --- Ancre de fin de page ---
 st.markdown('<div id="bottom"></div>', unsafe_allow_html=True)

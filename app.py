@@ -180,6 +180,8 @@ st.sidebar.radio(
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(t("version_info"))
+st.sidebar.markdown("")
+st.sidebar.markdown("© 2025 Eric QUEAU — [MIT License](https://opensource.org/licenses/MIT)")
 
 # --- Determiner la page active ---
 selected_page = None
@@ -411,10 +413,6 @@ elif selected_page == annex_pages[3]:
 elif selected_page == annex_pages[4]:
     st.title(t("title_biblio"))
     st.markdown(load_file_content("annexes/biblio.md"))
-
-# --- Footer licence ---
-st.markdown("---")
-st.markdown("© 2025 Eric QUEAU — [MIT License](https://opensource.org/licenses/MIT)")
 
 # --- Ancre de fin de page ---
 st.markdown('<div id="bottom"></div>', unsafe_allow_html=True)
